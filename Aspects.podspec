@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.7'
   s.source       = { :git => "https://github.com/steipete/Aspects.git", :tag => "#{s.version}" }
-  s.source_files  = 'Aspects.{h,m}'
+  s.source_files  = 'XAspects.{h,m}'
   s.requires_arc = true;
   s.social_media_url = "https://twitter.com/steipete"
 end
